@@ -656,11 +656,11 @@ public class MergeSort {
 		long startTime = ms.StopWatchStart();
 		
 		
-		//ms.TestMethodOne(noOfTimes,noOfStreams);
-		//ms.TestMethodTwo(noOfTimes,noOfStreams);
-		//ms.TestMethodThree(noOfTimes,noOfStreams);
-		//ms.TestMethodFour(noOfTimes,noOfStreams);
-		//ms.TestMethodFourVOne(noOfTimes, noOfStreams);
+		ms.TestMethodOne(noOfTimes,noOfStreams);
+		ms.TestMethodTwo(noOfTimes,noOfStreams);
+		ms.TestMethodThree(noOfTimes,noOfStreams);
+		ms.TestMethodFour(noOfTimes,noOfStreams);
+		ms.TestMethodFourVOne(noOfTimes, noOfStreams);
 		
 		
 		ms.TestMultiWayMergeSort();
